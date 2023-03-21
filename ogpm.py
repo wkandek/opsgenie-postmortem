@@ -1,5 +1,5 @@
 """
-checkpm.py - check the existence post-mortems of OpsGenie Incidents and creates if needed
+ogpm.py - check the existence post-mortems of OpsGenie Incidents and creates if needed
 
 Uses the incident API to list resolved and closed incidents without post-mortems,then creates a post-mortem and sets
 it to standard format. The idea is to run it evey 10 minutes and enforce a standard postmortem format.
