@@ -11,3 +11,7 @@ It uses the OpsGenie APIs to:
 - if not creates a post-mortem with a locally defined format and registers the post-mortem ID in the incident as a key-value attribute
 
 The logic is a bit convoluted as the OpsGenie post-mortem API is incomplete. See: https://community.atlassian.com/t5/Opsgenie-questions/Find-the-post-mortem-assocaied-with-an-incident-via-API/qaq-p/2216065 for an exploration of the subject.
+
+The idea is to run this under cron every 10 minutes.
+
+Note: configs.py and keys.py need to be adapted to your environment for OpsGenie API keys.
